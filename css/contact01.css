@@ -1,0 +1,33 @@
+
+
+.contact_main{width:930px;height: auto;padding: 40px 20px 10px 20px;}
+
+.map{width:928px;height:278px;border:#ccc solid 1px;font-size:12px;}
+
+
+.contact_main h5{font-family: "黑体";font-size: 20px;color: #333333;margin: 28px 0px 18px 0px;}
+.motto_slogan{width:198px;height:auto;border:1px solid #01A1FF;}
+.motto{width:150px;height:72px;border-bottom:2px solid #01A1FF;text-align:center;margin: 0 auto;padding-top: 20px;}
+.motto h3{font-family: "微软雅黑";font-size: 16px;color: #01A1FF;}
+.motto,.slogan{font-family:"Myriad Pro";font-size:16px;color: #01A1FF;}
+.slogan{text-align: center;padding:5px 0px 18px 0px;}
+
+.online_message{width:570px;height: auto;float: left;}
+
+.online_message form{width:570px;height:auto;}
+.online_message label{font-family: "微软雅黑";font-size: 16px;color:#666666;}
+.name{float: left;}
+.qq{float: right;}
+.box{float: left;}
+.address{float: right;}
+.leave{display: block;float: left;}
+.online_message form .button{width:96px;height:30px;background:#01A1FF;color: #FFFFFF;border: 0 none;clear: both;}
+.online_message input{width:212px;height: 30px;margin:0px 0px 10px 0px;font-family: "黑体";font-size: 16px;color: #b3b3b3;padding:0 5px;}
+.online_message textarea{width:521px;height: 113px;float: right;margin: 0px;padding:0 5px;float: right;}
+.online_message .button{width:96px;height: 30px;margin:10px 0px 0px 41px;}
+
+
+.contact_way{width: 284px;height: auto;float: right;}
+
+.contact_way ul li{width:292px;height:auto;font-family: "宋体";font-size: 14px;color: #666666;margin-bottom: 18px;}
+.contact_way ul li p{width:248px;height: auto;float: right;}

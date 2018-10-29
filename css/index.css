@@ -1,0 +1,158 @@
+body,ul,ol,dt,dl,dd,h1,h2,h3,h4,h5,h6,p{margin:0px;padding:0px;}
+a{text-decoration: none;color:#6b6b6b;}           /*a标签的下划线去除*/
+li{list-style-type: none;}                        /*ul li,ol li 的样式统一去掉*/
+.logo img{width: 150px;height: 41px;}             /*定义img的属性里的宽高*/
+.header{width: 1200px;							/*设置安全区域  */
+		height: 85px;
+		margin: 0 auto;}						/*自动适应屏幕居中*/
+.logo{float: left;    
+		padding-top: 22px;
+		display: block;width:150;height: 41px;}			/*名为logo的 a 标签 设置宽高 ,在里面装 img，若要设置宽高，需先设为块级元素*/
+.header ul{width:auto;height:85px;padding-left:200px;
+		float: left;}
+.header ul li{width:64px;height:85px;display:block;float: left;list-style-type:none;padding:0 30px;text-align: center;}
+.header ul li a{width:64px;height:81px;
+				display:block;/*a为行内元素,设置宽高无效,故设为块级
+				元素,让其可设置宽高*/
+					text-decoration: none;text-align: center;
+					line-height: 81px;									/*行高等于标签高度可以让文字垂直居中*/
+					color:#6b6b6b;font-size:16px; font-family: "微软雅黑"; }
+.header ul li a:hover{color:#01a1ff;border-bottom:4px solid #01a1ff;}      /*鼠标点击后的效果*/
+.header ul li .current{color:#01a1ff;border-bottom:4px solid #01a1ff;}     /*鼠标点击后停留的效果*/ /*给停留的字命名为current 意为 当前 */
+.header ol{width:100px;height: 50px;float:right;padding-top: 17px;}
+.header ol li{width:48px;height: 48px;border:1px solid #FFFFFF;float: left;font-family: "vrinda";font-size: 18px;color:#333333;
+				text-transform: uppercase;text-align: center;line-height:48px;}
+.header ol .on{border-color:#666666 ;}
+
+
+
+.content{width:auto;height:auto;}
+
+.content .banner{width:auto;height: 750px;
+			position:relative;				/*相对定位:*/ /*作为参照物*/
+			overflow:hidden;}               /*溢出隐藏,当把网页放的过大时,下面的滑动条消失*/       
+.content .banner ul{width:1920px;height: 750px;
+				position:absolute;left: 50%;	/* 绝对定位:*/
+				margin-left:-960px; }	/*ul宽度的一半*/
+.content .banner ol{width:64px;height:12px;	
+					position: absolute;left: 50%;/* 绝对定位:*/	
+						margin-left: -32px;/*ol宽度的一半*/
+				bottom:20px;}
+.content .banner ol li{width:12px;height: 12px;margin:0 2px;float:left;background:#999999;
+				border-radius: 6px;                  /*边框半径是 ol li 的高的一半,把矩形变为圆形*/
+				cursor: pointer;}                               /*光标滑过变为手指点击状态*/
+
+
+
+.banner .prev{width:32px;height: 32px ;display:block;background: url(../img/prev.png);position:absolute;top: 359px;left:44px;}
+.banner .next{width:32px;height: 32px ;display:block;background: url(../img/next.png);position:absolute;top: 359px;right:44px;}
+
+.banner .prev:hover{background:url(../img/prev_hover.png) ;}
+.banner .next:hover{background:url(../img/next_hover.png) ;}
+
+.content .banner ol .on{background: #01A1FF;}    /*上面有一个ol li 重叠,要给它加个父级*/;
+
+.title{width:1200px;height:275px;margin: 0 auto;}
+.title h2{font-family:"微软雅黑" ;font-size: 34px;font-weight: normal;
+			color:#000000;text-align: center;text-transform: uppercase;padding-top: 110px;}
+.title span{background: #01A1FF;
+			display: block;width:42px;height: 4px;		/*定义为 块级元素才可设置宽高*/
+			margin: 0px auto;}
+.title p{font-family:"宋体" ;font-size: 14px;font-weight: normal;color:#666666;line-height:24px ;text-align: center;margin-top: 28px;}
+
+.about{width:auto;height: auto;}
+.about .main{width:1201px;height: auto;margin:0px auto;overflow: hidden;}
+.about ul{width:1268px;height: auto;}
+.about li{width:250px;height: auto;float: left;;margin-right: 67px;}
+.about img{display: block;margin: 0px auto;padding: 26px 0px 60px 0px;}
+.about h3 a{display: block;;font-family: "微软雅黑";font-size: 20px;text-transform: uppercase;text-align: center;font-weight: normal;}
+.about h4 a{display: block;font-family: ;"微软雅黑";font-size: 14px;color: #666666;text-align: center;font-weight: normal;padding-bottom: 20px;}
+.about li p{font-family: "宋体";font-size: 12px;color: #999999;text-align: center;line-height: 24px;padding: 0px 12px;}
+
+
+.product{width:auto;height: auto;}
+.product .pro_list{width:auto;height: 270px;position: relative;overflow: hidden;}
+.product ul{width:1920px;height: 270px;position: absolute;left: 50%;margin-left:-960px ;}
+.product ul li{width:320px;height: 270px;float: left;}
+.product img{width:320px;height: 240px;float: left;}
+.product ul li p{width:320px;height: 30px;float: left;}
+.product ul li p a{font-family: "微软雅黑";font-size: 14px;color:#333333;line-height: 30px;
+					text-indent:15px;display: block;background: #F7F7F7 url(../img/pro_more.png) no-repeat 290px center;}
+.product ul li:hover p a{color:#FFFFFF;background: #01A1FF url(../img/pro_more_hover.png) no-repeat 290px center;}
+
+.product .prev{width:32px;height: 32px ;display:block;background: url(../img/prev.png);position:absolute;top: 119px;left:44px;}
+.product .next{width:32px;height: 32px ;display:block;background: url(../img/next.png);position:absolute;top: 119px;right:44px;}
+
+.product .prev:hover{background:url(../img/prev-hover.png) ;}
+.product .next:hover{background:url(../img/next-hover.png) ;}
+
+.video{width:auto;height:auto;}
+.video .main{width:1200px;height: 312px;margin: 0 auto;}
+.video_left{width:555px;height: 312px;float: left;}
+.video_left img{width:555px;height: 272px;float: left;}
+.video_left h3{width:555px;height: 40px;font-weight: normal;float: left;}
+.video_left h3 a{width:555px;height: 40px;display: block;background: #01A1FF;font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;
+					line-height: 40px;text-indent: 10px;}
+
+.video_right{width:605px;height: 312px;float: right;}
+.video_right .hot{width: 605px;height: 90px;background: url(../img/dash.jpg) repeat-x bottom;}
+.video_right .hot .date{width:68px;height: 76px;border: 1px solid #01A1FF;float: left;}
+.video_right .hot .date h4{width:68px;height: 56px;font-family: "impact";font-size: 40px;color:#01A1FF;
+								line-height: 56px;text-align: center;}
+.video_right .hot .date span{width: 68px;height: 20px;display: block;background: #01A1FF;font-family:"Myriad Pro";
+								font-size: 14px;color: #FFFFFF;line-height: 20px;text-align: center;}
+.video_right .hot .text{width:525px;height: 78px;float:right;}
+.video_right .hot .text h3{font-weight: normal;margin-bottom: 7px;}
+.video_right .hot .text h3 a{font-family: "微软雅黑";font-size: 18px;color: #01A1FF;}
+.video_right .hot .text p{font-family: "宋体";font-size: 12px;color: #999999;line-height: 20px;}
+
+
+.video_right ul{width: 605px;height: 222px;}
+.video_right li{width: 605px;height: 37px;line-height: 36px;background: url(../img/dash.jpg) repeat-x bottom;}
+.video_right li a{float: left;font-family:"宋体";font-size: 14px;color: #666666;}
+.video_right li span{float:right;font-family:"宋体";font-size: 14px;color: #666666;}
+
+.news{ width: auto; height: auto;position: relative;}
+.news .main{width: 1199px; height: 480px;margin: 0 auto;overflow: hidden;}
+.news ul{width: 1252px;height: 285px;}
+.news li{width: 260px; height: 285px;float: left; margin-right: 53px;cursor: pointer;}
+.news li img{width: 260px;height: 195px; float: left;}
+.news li div{ width: 260px; height: 90px;float: left; }
+.news li div h3{font-weight: normal; padding: 22px 0px 7px 0px;}
+.news li div h3 a{font-family: "微软雅黑"; font-size: 16px; clolr:#333333;text-align: center; display: block;}
+.news li div p{font-family: "宋体"; font-size: 12px;color:#999999;text-align: center;}
+.news li:hover div{ background: #01a1ff;}
+.news li:hover div h3 a{color: #FFFFFF;}
+.news li:hover div p a{color: #FFFFFF;}
+
+.news .prev{ width: 32px; height: 32px; display: block; background: url(../img/prev.png);position: absolute;left: 44px;top: 359px;}
+.news .next{ width: 32px; height: 32px; display: block; background: url(../img/next.png);position: absolute;right: 44px;top: 359px;}
+
+.news .prev:hover{width: 32px; height: 32px; display: block; background: url(../img/prev-hover.png);}
+.news .next:hover{width: 32px; height: 32px; display: block; background: url(../img/next-hover.png);}
+
+.news .more{ width: 124px; height: 22px; border: 1px #999999 solid; border-radius: 11px; display: block; line-height: 22px; text-indent: 25px;color: #999999;font-family: "微软雅黑";font-size: 14px;
+			background: url(../img/more_pic.png) no-repeat 84px center; margin: 50px auto 121px auto; }
+
+
+.footer{width:auto;height: 326px;}
+.footer .top{width:auto;height: 286px;background: #2186e6;}
+.footer .main{width:1200px;height: 236px;margin:0 auto;
+			padding-top: 50px;}           /*直接定义main部分内边距50px;main里的两个div就可以不用设两次*/
+.footer dl{width:164px;height:auto;float:left;}
+.footer dt{width:64px;font-family: "微软雅黑";font-size: 16px;color:#FFFFFF;border-bottom: 2px solid #a6cff5;
+			padding-bottom: 5px;margin-bottom: 10px;}
+.footer dd a{font-family: "宋体";font-size: 12px;color:#FFFFFF;line-height: 30px;;}
+
+.footer form{width:330px;float:right}
+.footer input{width: 132px;height: 28px;
+				padding:0 5px;				/*上下间距为0;左右为5px;*/
+				border:1px solid #FFFFFF;background: none;margin-left: 20px;
+				float: left;font-family: "宋体";font-size: 12px;color: #FFFFFF;}
+.footer textarea{width:296px;height: 94px;padding:5px;border: 1px solid #FFFFFF;
+					background: none;margin:10px 0px 10px 20px;font-family:"宋体"; font-size:12px;color:#FFFFFF;}
+.footer .button{width:106px}
+
+.copyright{width:auto;height: 40px;background: #505050;text-align:center;
+			line-height: 40px;font-family: "宋体";font-size: 12px;color: #FFFFFF;}
+			

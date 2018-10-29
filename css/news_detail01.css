@@ -1,0 +1,37 @@
+.pro_detail_main{width:970px;height: auto;padding-top: 40px;}
+.main_header{width:940px;height: 102px;background: url(../img/dash.jpg) repeat-x bottom;}
+.main_header h2{font-family:"微软雅黑";font-size:24px;color:#333333;text-align: center;margin-bottom: 50px;}
+.main_header ul{float: right;}
+.main_header span{font-family:"宋体";font-size:12px;color:#999999;margin-right: 18px;}
+.main_header ul li{width:68px;height:12px;font-family:"宋体";font-size:12px;color:#999999;float: left;text-indent: 16px;line-height:12px ;}
+.wechat{background:url(../img/news_detail_wechat.png) no-repeat; }
+.qqzone{background:url(../img/news_detail_qzone.png) no-repeat;}
+.sinablog{background:url(../img/news_detail_sinablog.png) no-repeat;}
+.tencentblog{background:url(../img/news_detail_tencentblog.png) no-repeat;}
+
+
+
+.main_content{width:934px;height: auto;text-align: center;padding:28px 18px 0px 18px;background: url(../img/dash.jpg) 				repeat-x bottom;}
+.main_content p{text-align:left;text-indent: 2em;font-family: "宋体";font-size: 14px;color: #666666;line-height: 24px;}
+.main_content h5{font-family: "宋体";font-size: 12px;color: #333333;margin:5px 0px 16px 0px;}
+.main_content span{font-weight: bold;color: #333333;}
+.main_content img{margin-top: 16px;}
+.main_content .page{padding:40px 0px 60px 0px;}
+
+.page {width:970px;height: 30px;}
+.page ul{width:auto;height: 30px;text-align: center;}
+.page li{width:30px;height: 30px;background:#e5e5e5;display:inline-block;line-height: 30px;font-family: "宋体";font-size: 12px;color: #999999;}
+.page .prev{width:92px;background:#E5E5E5 url(../img/page_prev.png) no-repeat 22px center;text-indent: 34px;text-align: left;margin-right: 20px;}
+.page .prev:hover a{background: #01A1FF url(../img/page_prev_hover.png) no-repeat 22px center;}
+
+.page .next{width:92px;background: #E5E5E5 url(../img/page_next.png) no-repeat 60px center;text-indent: 20px;text-align: left;}
+.page .next:hover a{background: #01A1FF url(../img/page_next_hover.png) no-repeat 60px center}
+
+.page a{display: block;font-family: "宋体";font-size: 12px;color: #999999;}
+.page a:hover{color: #FFFFFF;background:#01A1FF;}
+
+.prev_page{font-family: "宋体";font-size: 12px;color: #999999;}
+.next_page{float:right;font-family: "宋体";font-size: 12px;color: #999999;}
+
+.prev_page:hover{color:#01A1FF;}
+.next_page:hover{color:#01A1FF;}

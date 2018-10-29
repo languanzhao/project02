@@ -1,0 +1,45 @@
+body,ul,ol,dt,dl,dd,h1,h2,h3,h4,h5,h6,p,input,form{margin:0px;padding:0px;}
+a{text-decoration: none;color:#6b6b6b;}           /*a标签的下划线去除*/
+li{list-style-type: none;}                        /*ul li,ol li 的样式统一去掉*/
+.logo img{width: 150px;height: 41px;}             /*定义img的属性里的宽高*/
+.header{width: 1200px;							/*设置安全区域  */
+		height: 85px;
+		margin: 0 auto;}						/*自动适应屏幕居中*/
+.logo{float: left;padding-top: 22px;
+		display: block;width:150;height: 41px;}			/*名为logo的 a 标签 设置宽高 ,在里面装 img，若要设置宽高，需先设为块级元素*/
+.header ul{width:auto;height:85px;padding-left:200px;float: left;}
+.header ul li{width:64px;height:85px;display:block;float: left;list-style-type:none;padding:0 30px;text-align: center;}
+.header ul li a{width:64px;height:81px;
+				display:block;/*a为行内元素,设置宽高无效,故设为块级元素,让其可设置宽高*/
+					text-decoration: none;text-align: center;
+					line-height: 81px;									/*行高等于标签高度可以让文字垂直居中*/
+					color:#6b6b6b;font-size:16px; font-family: "微软雅黑"; }
+.header ul li a:hover{color:#01a1ff;border-bottom:4px solid #01a1ff;}      /*鼠标点击后的效果*/
+.header ul li .current{color:#01a1ff;border-bottom:4px solid #01a1ff;}     /*鼠标点击后停留的效果*/ /*给停留的字命名为current 意为 当前 */
+.header ol{width:100px;height: 50px;float:right;padding-top: 17px;}
+.header ol li{width:48px;height: 48px;border:1px solid #FFFFFF;float: left;font-family: "vrinda";font-size: 18px;color:#333333;
+				text-transform: uppercase;text-align: center;line-height:48px;}
+.header ol .on{border-color:#666666 ;}
+
+
+.footer{width:auto;height: 326px;}
+.footer .top{width:auto;height: 286px;background: #2186e6;}
+.footer .main{width:1200px;height: 236px;margin:0 auto;
+			padding-top: 50px;}           /*直接定义main部分内边距50px;main里的两个div就可以不用设两次*/
+.footer dl{width:164px;height:auto;float:left}
+.footer dt{width:64px;font-family: "微软雅黑";font-size: 16px;color:#FFFFFF;border-bottom: 2px solid #a6cff5;
+			padding-bottom: 5px;margin-bottom: 10px;}
+.footer dd a{font-family: "宋体";font-size: 12px;color:#FFFFFF;line-height: 30px;;}
+
+.footer form{width:330px;float:right}
+.footer input{width: 132px;height: 28px;
+				padding:0 5px;				/*上下间距为0;左右为5px;*/
+				border:1px solid #FFFFFF;background: none;margin-left: 20px;
+				float: left;font-family: "宋体";font-size: 12px;color: #FFFFFF;}
+.footer textarea{width:296px;height: 94px;padding:5px;border: 1px solid #FFFFFF;
+					background: none;margin:10px 0px 10px 20px;font-family:"宋体"; font-size:12px;color:#FFFFFF;}
+.footer .button{width:106px}
+
+.copyright{width:auto;height: 40px;background: #505050;text-align: center;
+			line-height: 40px;font-family: "宋体";font-size: 12px;color: #FFFFFF;}
+			

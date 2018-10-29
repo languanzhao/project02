@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" href="css/public.css" type="text/css" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/contact01.css"/>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6vvqoVROdWsq64FDVM0kaVO1F65oGOOR "></script>
+		<script type="text/javascript" language="JavaScript" src="js/map.js"></script>
+		<!--链接：http://api.map.baidu.com/lbsapi/createmap/index.html
+				6vvqoVROdWsq64FDVM0kaVO1F65oGOOR   百度密匙-->
+
+	</head>
+	<body>
+		<div class="header">   
+			<a class="logo" href=""><img src="img/logo.png" /></a>
+			<ul>
+					<li><a href="index.html">企业首页</a></li>
+					<li><a href="about01.html">关于我们</a></li>
+					<li><a href="news_center01.html">新闻中心</a></li>
+					<li><a href="production01.html">产品中心</a></li>
+					<li><a href="services01.html">客户服务</a></li>
+					<li><a class="current"  href="contact01.html">联系我们</a></li>                                                                                                                                                 
+			</ul>
+			<ol>
+				<li class="on">cn</li>
+				<li>en</li>
+			</ol>
+		</div>
+		<div class="content clearfix">
+			<div class="banner">
+			<a href="#">
+				<img src="img/about_banner.png" width="1920px" height="400px" />
+			</a>
+			</div>
+			<div class="main">
+				<div class="left">
+					<ul>
+						<li>
+							<div class="title"> 
+							<h2>contact us</h2>
+							<span></span>
+							<p>联系我们</p>
+							</div>
+							<div class="motto_slogan">
+							<div class="motto">
+							<h3>Carefully Create</h3>
+							<h3>And</h3>
+							<h3>Elaborate Service</h3>
+							</div>
+							<div class="slogan">
+							<span>精心创造</span>精心服务
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="title"> 
+							<h2>serach</h2>
+							<span></span>
+							<p>产品搜索</p>
+							</div>
+							<div class="search">
+						<form>
+							<input class="text" placeholder="电热水器"/>
+							<input class="button" type="submit" value="" />
+						</form>
+						</div>
+						</li>
+					</ul>
+				</div>
+				<div class="right">
+					<div class="top">
+						<h3>联系我们</h3>
+						<h4>frequently asked question</h4>
+						<ul>
+							<li>您当前的位置<span>	>	</span></li>
+							<li><a href="">首页</a><span>		>	</span></li>
+							<li><a class="current" href="">联系我们</a></li>
+						</ul>
+					</div>
+					<div class="contact_main">
+						<div class="map" id="map">
+							
+					</div>
+					<div class="online_message">
+						<h5>给我留言</h5>
+						<form>
+						<label class="name">姓名:	<input type="text" />                </label>
+							<label class="qq">QQ:<input type="text" />             </label>
+							<label class="box">邮箱:	<input type="text" />           </label>
+							<label class="address">地址:	<input type="text" /></label>
+							<label class="leave">留言:	<textarea></textarea></label>
+							<input type="submit" value="提交" class="button"/>
+						</form>
+					</div>
+					<div class="contact_way">
+						<h5>联系方式</h5>
+						<ul>
+							<li>地址：<p>广州市天河区大观南路26号（长胜商务大厦D栋）</p></li>
+							<li>手机：<p>13434316048</p></li>
+							<li>QQ：<p>332857028</p></li>
+							<li>邮箱：<p>332857028@qq.com</p></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+ 			</div>
+		</div>
+		<div class="footer">
+			<div class="top">
+				<div class="main">
+					  <dl>
+					  	<dt>关于我们</dt>
+					  	<dd><a href="#">公司简介</a></dd>
+					  	<dd><a href="#">企业文化</a></dd>
+					  	<dd><a href="#">企业荣誉</a></dd>
+					  	<dd><a href="#">资格认证</a></dd>
+					  	<dd><a href="#">研发生产</a></dd>
+					  </dl>
+					  <dl>
+					  	<dt>产品中心</dt>
+					  	<dd><a href="#">饮水机</a></dd>
+					  	<dd><a href="#">冰箱</a></dd>
+					  	<dd><a href="#">洗衣机</a></dd>
+					  	<dd><a href="#">空调</a></dd>
+					  	<dd><a href="#">其他产品</a></dd>
+					  </dl>
+					  <dl>
+					  	<dt>新闻中心</dt>
+					  	<dd><a href="#">最新动态</a></dd>
+					  	<dd><a href="#">企业新闻</a></dd>
+					  	<dd><a href="#">行业新闻</a></dd>
+					  	<dd><a href="#">热点聚焦</a></dd>
+					 	
+					  </dl>
+					  <dl>
+					  	<dt>客户服务</dt>
+					  	<dd><a href="#">招商加盟</a></dd>
+					  	<dd><a href="#">购买流程</a></dd>
+					  	<dd><a href="#">售后服务</a></dd>
+					  	<dd><a href="#">技术支持</a></dd>
+					  	<dd><a href="#">常见问题</a></dd>
+					  </dl>
+					  <dl>
+					  	<dt>联系我们</dt>
+					  	<dd><a href="#">在线留言</a></dd>
+					  	<dd><a href="#">网上咨询</a></dd>
+					  	<dd><a href="#">联系我们</a></dd>
+					  </dl>
+				
+				<form>
+					<input type="text" placeholder="请输入您的名字" />
+					<input type="text" placeholder="请输入您的联系方式" />
+					<textarea placeholder="请输入您的留言"></textarea>
+					<input class="button" type="submit" value="提交" />
+				</form>
+				</div>
+			</div>
+			<div class="copyright">
+				Copyright©2016WenCun.com All Rights Reserved Design By WenCun 粤ICP备13005446号-1
+			</div>
+		</div>
+	</body>
+</html>
+                             

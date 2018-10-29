@@ -1,0 +1,46 @@
+span,ol,ul,li,h2,input,a,{margin: 0px;padding: 0px;}
+
+.content{width:auto;height: auto;}
+.banner{width:auto;height: 400px;position: relative;overflow: hidden;}
+.banner img{width:1920px;height: 400px;position: absolute;left: 50%;margin-left:-960px;}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content .main{width:1220px;height: auto;margin: 0px auto;padding-top: 60px ;}
+
+.content .main .left .title{width:200px;height: 110px;background: #01A1FF;}
+.content .main .left .title h2{font-family:"微软雅黑";font-size:24px;text-transform: uppercase;
+								text-align: center;color: #FFFFFF;padding:32px 0px 9px 0px;}
+.content .main .left .title span{display: block;width:22px;height: 3px;background:#FFFFFF;margin: 0 auto;}
+.content .main .left .title p{font-family:"黑体";font-size:18px;text-align: center;color: #FFFFFF;margin-top: 10px;}
+.content .main .left ol{width:197px;height:auto;background:#FFFFFF;border:1px solid #01A1FF;margin-bottom: 40px;}
+.content .main .left ol li{width:172px;height:28px;margin:0 auto;padding:9px 0px 9px 0px;}
+.content .main .left ol li a{width:172px;height:28px;display: block;line-height: 28px;text-align: center;}
+.content .main .left ol li a:hover{width:172px;height:28px;display: block;line-height: 28px;text-align: center;
+									border-radius:14px;background:#01A1FF;color:#FFFFFF;}
+
+ol li .on{width:172px;height:28px;display: block;line-height: 28px;text-align: center;
+									border-radius:14px;background:#01A1FF;color:#FFFFFF;}
+
+.search{width:198px;height: auto;border:1px solid #01A1FF;}
+.search form{width:176px;height: 38px;border: 1px solid #CCCCCC;margin: 7px 10px;}
+.search form .text{width: 140px;height: 38px;float: left;border: 0px none;padding: 0 5px;font-family: "宋体";font-size: 14px;color: #333333;;line-height: 38px;}
+.search form .button{width:26px;height: 38px ;float: left;border: 0 none;background: url(../img/iconfont-fangdajing.png) no-repeat center ;cursor: pointer;}
+
+
+.content .main .left{float: left;}
+.content .main .right{float: right;width:970px;height: auto;padding-bottom: 120px;}
+.content .main .right .top{width:970px;height:45px;border-bottom: 1px solid #D3D3D3;}
+.content .main .right .top h3{float: left;line-height: 38px;border-left:3px solid #01A1FF;;
+							   font-family: "微软雅黑";font-size: 24px;color: #333333;margin-left:20px;padding-left: 6px;}
+.content .main .right .top h4{float: left;font-family: "微软雅黑";font-size: 14px;color: #8c8c8c;text-transform: capitalize;padding:18px 0px 0px 8px;}
+.content .main .right .top ul{width:auto;height:38px;float:right;line-height: 38px;font-family: "微软雅黑";font-size: 14px;color: #8c8c8c;padding-right: 20px;}
+.content .main .right .top ul li{float:left;}
+.content .main .right .top a:hover{color:#01A1FF;}
+.content .main .right .top .current{color: #01A1FF;}
+.content .main .right .top span{padding:0 5px;}
+
+

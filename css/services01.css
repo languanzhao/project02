@@ -1,0 +1,19 @@
+.services_main{width:930px;height: auto;padding: 40px 20px 10px 20px;}
+.services_main ul li{width:930px;height:16px;background:url(../img/services_dash.jpg) repeat-x center center;margin-bottom: 16px;}
+.services_main ul li a{font-family: "宋体";font-size: 14px;color: #666666;}
+.services_main ul li:hover a{color:#01A1FF;}
+.word{width:auto;height: 16px;background:#FFFFFF;float: left;}
+.date{width:auto;height: 16px;background:#FFFFFF;float: right;}
+ 
+.page {width:970px;height: 30px;}
+.page ul{width:auto;height: 30px;text-align: center;}
+.page li{width:30px;height: 30px;background:#e5e5e5;display:inline-block;line-height: 30px;font-family: "宋体";font-size: 12px;color: #999999;}
+.page .prev{width:92px;background:#E5E5E5 url(../img/page_prev.png) no-repeat 22px center;text-indent: 34px;text-align: left;}
+.page .prev:hover a{background: #01A1FF url(../img/page_prev_hover.png) no-repeat 22px center;}
+
+.page .next{width:92px;background: #E5E5E5 url(../img/page_next.png) no-repeat 60px center;text-indent: 20px;text-align: left;}
+.page .next:hover a{background: #01A1FF url(../img/page_next_hover.png) no-repeat 60px center}
+
+.page a{display: block;font-family: "宋体";font-size: 12px;color: #999999;}
+.page a:hover,.page .on{color: #FFFFFF;background:#01A1FF;}
+
